@@ -3,7 +3,7 @@ const dotenv = require('dotenv')
 const cors = require('cors')
 dotenv.config()
 
-const {database} = require('./config/connection.sql')
+const {database} = require('./config/connection.mongodb.js')
 
 const { authRouter } = require('./auth/auth.router')
 const { productRouter } = require('./products/products.router')

@@ -1,4 +1,4 @@
-const { query } = require("../config/connection.sql")
+const { query } = require("../config/connection.mongodb")
 
 
 const insertarProducto = async ({titulo, descripcion, precio, stock, codigo}) => {
